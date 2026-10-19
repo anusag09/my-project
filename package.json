@@ -1,0 +1,9 @@
+{
+  "name": "the-last-village",
+  "private": true,
+  "description": "Top-down town defense shooter (browser, no build step)",
+  "scripts": {
+    "test": "node --test",
+    "test:update-golden": "node tests/golden.test.js --update"
+  }
+}
